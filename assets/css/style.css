@@ -1,0 +1,220 @@
+/* Common Css start */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+body{
+    background-color: #fff;
+}
+h1,h2,h3,h4,h5,h6,p,ul,ol,a{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+:root{
+    --primaryColor: #ffca36;
+    --secondaryColor: #353535;
+    --bgColor: #dcdad585;
+}
+.secTitle{
+    text-align: center;
+    margin: 70px 0;
+}
+/* Common Css end */
+/* header Css stat */
+#headerSec{
+    background-color: var(--primaryColor);
+    text-align: center;
+    padding: 10px 0;
+}
+#headerSec p a{
+    font-size: 16px;
+    color: var(--secondaryColor);
+}
+#headerSec .title{
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    background-color: var(--secondaryColor);
+    color: #fff;
+}
+#headerSec .address p{
+    font-size: 18px;
+    font-family: serif;
+}
+#headerSec .contact a{
+    font-size: 18px;
+    color: var(--secondaryColor);
+    font-family: serif;
+}
+/* header Css end */
+/* nav Css start */
+nav .my_nav{
+    background: #ffca36;
+}
+nav #my_customNav ul li a {
+    font-size: 18px;
+    color: black;
+    font-weight: 500;
+    padding: 10px 10px;
+}
+/* nav Css end */
+/* banner Css start */
+#banner {
+    background-color: var(--bgColor);
+    padding: 50px;
+}
+#banner .banner_item{
+    margin-top: 35px;
+}
+#banner .banner_item h2{
+    font-size: 50px;
+}
+#banner .banner_item hp{
+    font-size: 18px;
+}
+#banner .banner_item .banner_btn a{
+    font-size: 18px;
+    padding: 10px 20px;
+    border: 1px solid var(--secondaryColor);
+    color: black;
+    display: inline-block;
+    margin: 30px 0;
+    padding: 10px 20px;
+}
+#banner .banner_item .banner_btn a:first-child{
+    background-color: #fff;
+}
+#banner .banner_item .banner_btn a:last-child{
+    background-color: red;
+    color: #fff;
+}
+#banner .banner_item .banner_btn a:hover{
+    background-color: #fff;
+    color: black;
+    transition: all linear .4s;
+}
+/* banner Css end */
+/* course Css start */
+#course .servBox{
+   
+    margin-bottom: 70px;
+}
+#course .servBox h3{
+font-size: 25px;
+background-color: var(--primaryColor);
+text-align: center;
+padding: 20px 0;
+}
+#course .servBox ul{
+    margin: 40px 0;
+}
+#course .servBox ul li{
+    font-size: 18px;
+    font-weight: 400;
+    padding: 5px;
+}
+#course .servBox ul li span{
+    margin-right: 5px;
+    font-size: 10px;
+}
+#course .servBox a{
+    margin: auto;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    display: inline-block;
+    padding: 15px 100px;
+    margin-left: 50px;
+    border-radius: 30px;
+    border: 1px solid var(--primaryColor);
+}
+#course .servBox a:hover{
+    background-color: var(--primaryColor);
+    transition: all linear .3s;
+}
+/* course Css end */
+/* footer Css star */
+footer{
+    background-color: var(--secondaryColor);
+    color: #fff;
+    padding: 50px 0;
+}
+.footerLogo p{
+    font-size: 18px;
+    padding: 10px 0;
+}
+footer .footerAddress ul li{
+    font-size: 20px;
+    padding: 10px 0;
+}
+footer .footerAddress ul li a{
+    color: #fff;
+}
+footer .footerAddress ul li a:hover{
+    color: #0e5cc2;
+}
+footer .footerAddress ul li span{
+    margin-right: 10px;
+}
+/* footer Css end */
+/* details banner start*/
+#details_Bnr{
+    padding: 60px 0;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,52,9,1) 46%, rgba(0,212,255,1) 100%);
+color: #fff;
+}
+#enroll_Bnr p{
+    font-size: 100px;
+    font-weight: bold;
+}
+#details_Bnr .enroll_Bnr h2{
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+#details_Bnr .enroll_Bnr ul li{
+    font-size: 30px;
+    margin: 20px 0;
+}
+#details_Bnr .enroll_box a{
+    font-size: 30px;
+    padding: 25px 35px;
+    border: 1px solid var(--secondaryColor);
+    color: #fff;
+    display: inline-block;
+    margin: 30px 0;
+    padding: 10px 20px;
+}
+#details_Bnr .enroll_box a:last-child{
+    background-color: var(--primaryColor);
+    color: black;
+}
+#details_Bnr .enroll_box a:hover{
+    background-color: var(--bgColor);
+    transition: all linear .3s;
+}
+/* details banner end*/
+/* course about end*/
+#courseeAbout{
+    background-color: var(--bgColor);
+}
+#courseeAbout .courseDetais p{
+    font-size: 20px;
+    line-height: 2;
+    padding: 10px 0;
+}
+/* course about end*/
+/* about about start*/
+#aboutUs p{
+    font-size: 18px;
+    padding: 20px 0;
+    font-weight: 400;
+}
+/* about about end*/
+
